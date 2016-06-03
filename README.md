@@ -5,7 +5,8 @@ SUMMARY:
 A modpack for minetest that introduces aluminum to the game, along with 
 related materials and craft items.The mod is designed as an extension of
 the Technic mod (https://github.com/minetest-technic/technic) and thus I
-highly recommend you use them together.
+highly recommend you use them together. The mod also includes a few set
+of armor using the 3d Armor mod (https://github.com/stujones11/minetest-3d_armor.git).
 
 HOW TO USE:
 The mod is structured as a modpack, so just dump it into your 
