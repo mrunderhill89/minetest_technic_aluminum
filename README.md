@@ -75,7 +75,7 @@ from just in case.
 
 Technic: 
 
-    LGPL, V2 or later.
+LGPL, V2 or later.
 
 3D Armor:
 	
