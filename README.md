@@ -76,10 +76,13 @@ from just in case.
 Technic: LGPL, V2 or later.
 
 3D Armor:
-	Default Item Textures (C) Cisoun - WTFPL
-	Armor Textures: Copyright (C) 2013 Ryan Jones - CC-BY-SA
+	
+Default Item Textures (C) Cisoun - WTFPL
+	
+Armor Textures: Copyright (C) 2013 Ryan Jones - CC-BY-SA
 		https://creativecommons.org/licenses/by-sa/2.0/
-	Source Code: Copyright (C) 2013 Stuart Jones - LGPL
+	
+Source Code: Copyright (C) 2013 Stuart Jones - LGPL
 
 
 SPECIAL THANKS:
