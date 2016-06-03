@@ -74,6 +74,7 @@ directly is WTFPL, but I'm including the licenses of the mods I borrowed
 from just in case.
 
 Technic: LGPL, V2 or later.
+
 3D Armor:
 	Default Item Textures (C) Cisoun - WTFPL
 	Armor Textures: Copyright (C) 2013 Ryan Jones - CC-BY-SA
