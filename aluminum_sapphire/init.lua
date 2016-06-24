@@ -46,10 +46,16 @@ if technic then
     description = S("Blue Corundum Dust"),
     inventory_image = "aluminum_sapphire_dust.png",
   })
-  technic.register_alloy_recipe({input = {"technic_aluminum:alumina_dust 3", "technic:wrought_iron_dust 1"}, output = "technic_aluminum:sapphire_dust", time = 12})
-  technic.register_separating_recipe({input = {"technic_aluminum:sapphire_dust"}, output = {"technic_aluminum:alumina_dust 3", "technic:wrought_iron_dust 1"}, time = 12})
-  technic.register_grinder_recipe({input = {"technic_aluminum:sapphire"}, output = "technic_aluminum:sapphire_dust 4", time = 12})
-  technic.register_compressor_recipe({input = {"technic_aluminum:sapphire_dust 4"}, output = "technic_aluminum:sapphire", time = 12})
+  local iron_in = 2
+  local iron_out = 1
+  local alumina_in = 3
+  local alumina_out = 3
+  local dust_in = 5
+  local dust_out = 5
+  technic.register_alloy_recipe({input = {"technic_aluminum:alumina_dust "..alumina_in, "technic:iron_dust "..iron_in}, output = "technic_aluminum:sapphire_dust", time = 12})
+  technic.register_separating_recipe({input = {"technic_aluminum:sapphire_dust"}, output = {"technic_aluminum:alumina_dust "..alumina_out, "technic:iron_dust "..iron_out}, time = 12})
+  technic.register_grinder_recipe({input = {"technic_aluminum:sapphire"}, output = "technic_aluminum:sapphire_dust "..dust_out, time = 12})
+  technic.register_compressor_recipe({input = {"technic_aluminum:sapphire_dust "..dust_in}, output = "technic_aluminum:sapphire", time = 12})
 
   minetest.register_craft({
     output = 'technic:blue_energy_crystal',
