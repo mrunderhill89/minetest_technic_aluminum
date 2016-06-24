@@ -15,12 +15,12 @@ if minetest.get_modpath("technic") then
 		end
 	end
 
-  if minetest.get_modpath("sapphire") then
+  if minetest.get_modpath("aluminum_sapphire") then
     stats.sapphire = { name = "Sapphire", armor = 2.4, heal=10, use=100, water=1}
     mats.sapphire = "technic_aluminum:sapphire"
   end
   
-  if minetest.get_modpath("ruby") then
+  if minetest.get_modpath("aluminum_ruby") then
     stats.ruby = { name = "Ruby", armor = 2.4, heal=10, use=100, fire=1}
     mats.ruby = "technic_aluminum:ruby"
   end
